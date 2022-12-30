@@ -4,62 +4,108 @@
 </head>
 <body style="background: aqua;">
 
-    <h3 style="color:red">Registration Form</h3>
+    <h3 style="color:blue"><center>Registration Form</center></h3>
+ <fieldset>
       <legend><b>Personal Info:<b></legend>
+
  <form>
-      <label>Name</label>
-            <input type="text" placeholder="Enter Name" autofocus><br><br>
-      <label>Email</label>
-             <input type="email" placeholder="Enter Email"><br><br>
-      <label>Password</label>
-               <input type="password" placeholder="Enter Password"><br><br>
-      <label>Date Of Birth</label>
-                <input type="date"><br><br>
-       <label>Gender</label>
-             <input type="radio">
+<table style="width:100%;">
+
+<tr>
+   
+      <td> <label>Name</label>   </td>
+             <td> <input type="text" placeholder="Enter Name" autofocus>  </td>       
+</tr>
+
+<tr>
+      <td><label>Email</label> </td>
+            <td>  <input type="email" placeholder="Enter Email">    </td>    
+</tr>
+
+<tr>
+      <td><label>Password</label> </td>
+            <td>   <input type="password" placeholder="Enter Password">   </td>           
+</tr>
+
+<tr>
+      <td><label>Date Of Birth</label> </td>
+                <td>  <input type="date">  </td>
+</tr>
+
+<tr>
+      <td> <label>Gender</label> </td>
+   <td>          <input type="radio">
        <label>Male</label>
              <input type="radio">
        <label>Female</label>
              <input type="radio">
        <label>Others</label><br><br>
+   </td>
+</tr>
 
-       <lable>MobileNo</label>
-          <input type="Number" placeholder="Enter Mobile No"><br><br>
+<tr>
+       <td> <lable>MobileNo</label></td>
+         <td>  <input type="Number" placeholder="Enter Mobile No">  </td>
+</tr>
+</table>
+ </fieldset>
+    
+     <fieldset>
+<table style="width:90%;">
+<tr>
+          <legend><b>Education:<b></legend>
 
-   <legend><b>Education:<b></legend>
-       <label>Education Level</label>
-          <input type="checkbox">
-               <label>10<sup>th</label>
-          <input type="checkbox">
-                <label>12<sup>th</label>
-          <input type="checkbox">
-                <label>UG</label>
-          <input type="checkbox">
-                 <label>PG</labe><br><br>
+           <td> <label>Education Level</label></td>
+       <td>        <input type="checkbox">
+            <label>10<sup>th</label>
+                 <input type="checkbox">
+            <label>12<sup>th</label>
+                 <input type="checkbox">
+            <label>UG</label>
+                 <input type="checkbox">
+             <label>PG</labe><br><br>
+       </td>
+</tr> 
 
-              <label>Course</label><br>
-                  <input type="checkbox">
+<tr>
+             <td> <label>Course</label></td>
+         <td>         <input type="checkbox">
               <label>Java</label>
                   <input type="checkbox">
               <label>HTML</label>
                   <input type="checkbox">
-              <label>SQL</label><br><br>
+              <label>SQL</label>
+        </td>
+</tr>
+</table>
+   </fieldset>
 
+<fieldset>
+<table style="width:190%">
+<tr>
       <legend><b>Address:<b></legend>
-            <label>Address</label>
-                        <textarea id="area" cols="35" rows="5"></textarea><br><br>
-<!--                <input type="address" placeholder="Enter Address"><br><br>-->
-        <label>District</label>
-            <select>
+          <td>  <label>Address</label></td>
+                     <td>   <textarea id="area" cols="35" rows="5"></textarea> </td>
+</tr>
+
+<tr>
+       <td> <label>District</label></td>
+         <td>   <select>
                 <option value="trichy" selected>Trichy</option>
                    <option value="chennai">Chennai</option>
                      <option value="salem">Salem</option>
 
-           </select><br><br>
-                <label>Pincode</label>
-                <input type="pincode" placeholder="Enter Pincode"><br><br>
+           </select></td>
+</tr>
 
-           <input type="submit" value="save" style="background-color:lime">
+<tr>
+             <td>   <label>Pincode</label> </td>
+              <td>  <input type="pincode" placeholder="Enter Pincode"> </td>
+</tr>
+</table>
+</fieldset>
+
+         <center>  <input type="submit" value="save" style="background-color:red"> </center>
 
 </form>
 
