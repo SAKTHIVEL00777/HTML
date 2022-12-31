@@ -1,0 +1,54 @@
+div{
+    width: 600px;
+    margin: 15px auto;
+    border: 5px double;
+    padding: 30px;
+}
+div h2{
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: -5px;
+}
+table{
+    width: 80%;
+}
+div h4{
+    background-color: gray;
+    padding: 3px;
+    color: white;
+}
+.EDUCATION{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.EDUCATION th{
+    padding: 3px;
+    background-color: navy;
+    color: white;
+    border: 1px solid black;
+}
+.EDUCATION tr{
+    text-align: center;
+}
+.EDUCATION td{
+    border: 1px solid;
+    padding: 5px;
+}
+table.left{
+    text-align: left;
+}
+table.right{
+    text-align: right;
+    font-weight: bold;
+}
+.space{
+    text-indent: 25px;
+    text-align: justify;
+    line-height: 28px;
+}
+#progress{
+    width: 40%;
+}
+li{
+    margin-bottom: 2px;
+}
