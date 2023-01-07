@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+}
+.container{
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    line-height: 50px;
+    position: sticky;
+    font-weight: bold;
+    top: 10px;
+    left: 10px;
+}.img{
+    margin:0 50px;
+    float: left;
+    height: 70px;
+    
+}
+.menu-link{
+    float: left; 
+}  
+.menu-link a{
+    text-decoration: none;
+    margin: 0px 15px;
+    color: rgb(102, 91, 91);
+}
+.icon span{
+    line-height: 30px;
+    margin: 0px 10px;
+}
+
+
