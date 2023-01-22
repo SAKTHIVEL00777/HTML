@@ -8,14 +8,17 @@ h1 {
 p {
     color: blue;
 }*/
+
 h1{
 text-align: center;
     color: blueviolet
 }
 body{ font-size: medium}
 .kavin{color:red;
+    text-align: center;
 background-color: lime}
 
 body{font-size: medium}
 .kumar{color: blue;
+    text-align: center;
 background-color: lime}
