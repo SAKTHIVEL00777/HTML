@@ -15,6 +15,9 @@ background-color: aqua;
     color: blueviolet
     
 }
+fieldset{
+    background-color: gray;
+}
 body{ font-size: x-large}
 .kavin{color:red;
     text-align: center;
