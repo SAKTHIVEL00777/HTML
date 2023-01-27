@@ -17,6 +17,8 @@ background-color: aqua;
 }
 fieldset{
     background-color: gray;
+    border-radius: 20px;
+    
 }
 body{ font-size: x-large}
 .kavin{color:red;
