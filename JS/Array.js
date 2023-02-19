@@ -4,3 +4,7 @@ for(i=0;i<ar.length;i++){
 }
 ar.push("five");//add last element
 console.log(ar);
+ar.pop(3);//remove last element
+console.log(ar);
+ar.shift(1);//remove first element
+console.log(ar);
