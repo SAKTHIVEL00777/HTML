@@ -8,3 +8,5 @@ ar.pop(3);//remove last element
 console.log(ar);
 ar.shift(1);//remove first element
 console.log(ar);
+ar.unshift("ONE");//add first element
+console.log(ar);
