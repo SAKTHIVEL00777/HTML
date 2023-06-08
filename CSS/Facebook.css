@@ -1,0 +1,29 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color:blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    border-radius: 100px;
+}
+h1{
+    font-size: 450px;
+    position: absolute;
+    bottom: -89px;
+}
