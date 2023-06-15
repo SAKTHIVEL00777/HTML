@@ -1,0 +1,32 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.microsoft{
+    width: 350px;
+    margin: 25px auto;
+}
+.square.red{
+    background-color: red;
+}
+.square.green{
+    background-color: green;
+
+}
+.square.blue{
+    background-color:blue;
+
+}
+.square.yellow{
+    background-color: yellow;
+
+}
+.square{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px 10px 0;
+    float: left;
+}
