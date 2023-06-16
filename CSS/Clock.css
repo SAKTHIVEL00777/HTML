@@ -6,11 +6,11 @@
     color: #ffffff;
 }
 body{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   min-height: 100vh; 
-   background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: #212121;
 }
 .container{
     position: relative;
