@@ -1,9 +1,9 @@
-body{
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    justify-content: center;
-    align-content: center;
+ body{
+     width: 100vw;
+     height: 100vh;
+     display: grid;
+     justify-content: center;
+     align-content: center;
 }
 .microsoft{
     width: 350px;
