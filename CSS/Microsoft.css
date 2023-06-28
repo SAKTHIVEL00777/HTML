@@ -5,6 +5,7 @@ body{
      justify-content: center;
      align-content: center;
 }
+
 .microsoft{
     width: 350px;
     margin: 25px auto;
@@ -24,6 +25,7 @@ body{
     background-color: yellow;
 
 }
+
 .square{
      width: 150px;
      height: 150px;
